@@ -1,0 +1,44 @@
+.nav-tabs{
+    background-color: #1c1c1c;
+    height: 12vh;
+}
+
+.animate__animated{
+    
+    color: rgb(255, 255, 255);
+    text-shadow: 11px 25px 4px rgb(255 255 255)
+}
+
+.specialTop{
+    text-shadow: 8px 8px 10px #6233d4;
+    text-align: center;
+}
+
+.parallax{
+    background-image: url('/images/skywaterfall.gif');
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.brkten{
+    height: 10vh;
+}
+
+.special{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    text-shadow: 8px 8px 10px #6233d4;
+}
+
+.IconPad{
+    padding-right: 4px;
+}
