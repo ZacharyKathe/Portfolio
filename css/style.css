@@ -51,7 +51,7 @@
 }
 
 .propertyOwnership{
-    background-image: url("/images/propertOwnershipCover400.jpg");
+    background-image: url("https://zacharykathe.github.io/Portfolio/images/propertOwnershipCover400.jpg");
     height: 300px;
     background-size: cover;
     display: flex;
