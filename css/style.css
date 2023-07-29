@@ -42,3 +42,27 @@
 .IconPad{
     padding-right: 4px;
 }
+
+.highlightcontainer{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+}
+
+.propertyOwnership{
+    background-image: url("/images/propertOwnershipCover400.jpg");
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 80%;
+    box-shadow: 8px 6px gray;
+}
+
+.itemlink{
+    margin-left: 5%;
+    margin-bottom: 2%;
+    width: 30%;
+    box-shadow: 5px 5px gray;
+}
