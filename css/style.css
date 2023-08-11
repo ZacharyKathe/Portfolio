@@ -25,7 +25,7 @@
     height: 100%;
     color: #004AAD;
     font-size: larger;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .highlightNav{
@@ -39,7 +39,7 @@
 .highlightItem{
     background-color: #004AAD;
     border-radius: 8px 8px;
-    margin-bottom: 30px;
+    margin-left: 8%;
 }
 
 .nav-link{
@@ -55,6 +55,7 @@
     background-color: #004AAD;
     border-radius: 8px 8px;
 }
+
 
 .animate__hinge{
     
@@ -131,8 +132,6 @@
 
 .highlightcontainer{
     display: flex;
-    margin-left: 160px;
-    padding: 0px 8px;
     flex-direction: column;
     height: auto;
     align-items: center;
@@ -140,17 +139,17 @@
     color: black;
 }
 
-.sidenav{
-    height: 100%;
-  width: 160px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
+.highlightnav{
+  height: 100%;
   background-color: #000000;
-  overflow-x: hidden;
-  overflow-y: clip;
-  padding-top: 20px;
+  
+}
+
+.highlightUl{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
 }
 
 .propertyOwnership{
@@ -199,7 +198,7 @@
 }
 
 .discText{
-    color: #004AAD;
+    color: #000000;
     text-align: center;
     font-size: x-large;
     font-weight: 600; 
@@ -222,9 +221,18 @@
     margin-top: 5%;
 }
 
+.contactTitle{
+    text-align: center;
+    color: #004AAD;
+    margin-top: 5%;
+}
+
+.contactBody{
+    text-align: center;
+}
 
 .footer{
-    background-color: #0b0b0b;
+    background-color: #ffffff;
 }
 
 
@@ -238,7 +246,6 @@
     }
     .nav-tabs{
         display: flex;
-        flex-direction: column;
         align-content: space-between;
     }
     .nav-item{
@@ -251,7 +258,10 @@
     .serviceTitle{
         text-align: center;
         color: #004AAD;
-        margin-top: 15%;
-        border-top: dashed;
+        margin-top: 15%;  
     }
+    .highlightItem{
+        margin: 0;
+    }
+
   }
