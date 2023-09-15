@@ -43,12 +43,13 @@
 }
 
 .nav-link{
-    color: #004AAD;
+    color: #000000;
     font-weight: 500;
 }
 .nav-link:hover{
     background-color: #004AAD;
     color: #ffffff;
+    border-radius: 6px;
 }
 
 .nav-item{
@@ -105,7 +106,7 @@
 
 .parallax2{
     background-color: #004AAD;
-    height: 90vh;
+    padding-bottom: 45px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -137,16 +138,13 @@
     flex-direction: column;
     height: auto;
     align-items: center;
-    background-color: #ffffff;
+    background-color: #004AAD;
     color: black;
-    margin-bottom: 100px;
+    padding-bottom: 40px;
+    margin-bottom: 10px;
 }
 
-.highlightnav{
-  height: 100%;
-  background-color: #000000;
-  
-}
+
 
 .highlightUl{
     display: flex;
@@ -162,10 +160,9 @@
     display: flex;
     flex-direction: column-reverse;
     width: 60%;
-    box-shadow: 14px 10px #bfbdbd;
     margin-top: 2%;
     margin-bottom: 4%;
-    border-style: outset;
+    box-shadow: 6px 8px 23px;
 }
 
 .propertyOwnership:hover{
@@ -180,8 +177,7 @@
     display: flex;
     flex-direction: column-reverse;
     width: 60%;
-    box-shadow: 14px 10px #bfbdbd;
-    border-style: outset;
+    box-shadow: 6px 8px 23px;
 }
 
 .parkLocations:hover{
@@ -196,28 +192,25 @@
     display: flex;
     flex-direction: column-reverse;
     width: 60%;
-    box-shadow: 14px 10px #bfbdbd;
-    border-style: outset;
+    box-shadow: 6px 8px 23px;
 }
 
 .wordpress:hover{
-    border-radius: 20px;
-    border-style: solid;
+    box-shadow: 0px 0px 0px;
 }
 
 .itemlink{
     margin-left: 5%;
     margin-bottom: 2%;
     width: 30%;
-    border: #004AAD;
-    border-style: outset;
-    background-color: #ffffff;
     color: #004AAD;
+    background-color: #ffffff;
+    padding: 10px;
 }
 
 .itemlink:hover{
-    color: #ffffff;
     background-color: #004AAD;
+    color: #ffffff;
     border-radius: 12px 12px;
 }
 
@@ -238,14 +231,23 @@
 }
 
 .PropText{
-    margin-top: 2%;
+    margin-top: 3%;
+    margin-bottom: 60px;
     text-align: center;
     width: 80%;
+    box-shadow: 6px 8px 23px;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 6px;
 }
 
-.PropTitle{
-    text-shadow: 8px 8px 10px #2a7eed; 
+.PropTitle{ 
     margin-top: 8%;
+    padding: 15px;
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: 6px 8px 23px;
+    border-radius: 6px;
 }
 
 
@@ -264,6 +266,11 @@
 
 .contactBody{
     text-align: center;
+}
+
+.contactMe{
+    display: flex;
+    justify-content: center;
 }
 
 .footer{
@@ -292,7 +299,7 @@
         background-color: #004AAD;
     }
     .nav-link{
-        color: #ffffff;
+        color: #000000;
     }
     .serviceTitle{
         text-align: center;
