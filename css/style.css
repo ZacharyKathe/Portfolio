@@ -302,4 +302,16 @@
         margin: 0;
     }
 
+    .highlightcontainer{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        background-color: #dee2e6;
+        color: black;
+        padding-bottom: 40px;
+        margin: 0px;
+        
+    }
+
   }
