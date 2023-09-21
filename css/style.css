@@ -41,6 +41,9 @@
     border-radius: 8px 8px;
     margin-left: 8%;
 }
+.highlightFooter{
+    text-align: center;
+}
 
 .nav-link{
     color: #000000;
@@ -142,7 +145,7 @@
     flex-direction: column;
     height: auto;
     align-items: center;
-    background-color: #004AAD;
+    background-color: #dee2e6;
     color: black;
     padding-bottom: 40px;
     
@@ -157,58 +160,29 @@
     justify-content: space-between;
 }
 
-.propertyOwnership{
-    background-image: url("https://zacharykathe.github.io/Portfolio/images/propertOwnershipCover400.jpg");
-    height: 300px;
-    background-size: cover;
-    display: flex;
-    flex-direction: column-reverse;
-    width: 60%;
-    margin-top: 2%;
-    margin-bottom: 4%;
-    box-shadow: 6px 8px 23px;
-}
 
 .propertyOwnership:hover{
     box-shadow: 0px 0px 0px;
 }
 
-.parkLocations{
-    background-image: url("https://zacharykathe.github.io/Portfolio/images/parkLocationsCover400.jpg");
-    height: 300px;
-    background-size: cover;
-    display: flex;
-    flex-direction: column-reverse;
-    width: 60%;
-    box-shadow: 6px 8px 23px;
-}
-
-.parkLocations:hover{
-    box-shadow: 0px 0px 0px;
-}
 
 .PressContainter{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #e1e0e0;;
+    background-color: #dee2e6;
     padding-bottom: 40px;
 }
 
-.wordpress{
-    background-image: url("https://zacharykathe.github.io/Portfolio/images/WordPressTemplate.jpg");
-    height: 300px;
-    background-size: cover;
+.park{
     display: flex;
-    flex-direction: column-reverse;
-    width: 60%;
-    box-shadow: 6px 8px 23px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    padding-bottom: 40px;
 }
 
-.wordpress:hover{
-    box-shadow: 0px 0px 0px;
-    
-}
+
 
 .itemlink{
     margin-left: 5%;
@@ -314,14 +288,14 @@
     }
     .nav-item{
         border-style: outset;
-        background-color: #004AAD;
+        background-color: #0d6efd;
     }
     .nav-link{
         color: #000000;
     }
     .serviceTitle{
         text-align: center;
-        color: #004AAD;
+        color: #0d6efd;
         margin-top: 15%;  
     }
     .highlightItem{
