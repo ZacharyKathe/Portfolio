@@ -20,17 +20,7 @@
     height: 50px;
 }
 
-.NavIcon{
 
-}
-
-.homeNav{
-    background-color: white;
-    height: 100%;
-    color: #004AAD;
-    font-size: larger;
-    justify-content: space-around;
-}
 
 .highlightNav{
     background-color: rgb(0, 0, 0);
@@ -47,6 +37,8 @@
 }
 .highlightFooter{
     text-align: center;
+    margin-top: 25px;
+    padding: 30px;
 }
 
 .nav-link{
