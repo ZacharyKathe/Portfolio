@@ -30,6 +30,11 @@
     display: block;
 }
 
+.btn:hover{
+  background-color: #ffffff;
+  color: #004AAD;
+}
+
 .highlightItem{
     background-color: #004AAD;
     border-radius: 8px 8px;
